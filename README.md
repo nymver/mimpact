@@ -1,5 +1,5 @@
 # mimpact
-Make a meme with top/bottom text and Impact font.
+Make a meme with top/bottom text and Impact font. Uses [ImageMagick](https://imagemagick.org/).
 
 *Note: you should have an installed Impact font.*
 
