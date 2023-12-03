@@ -1,0 +1,6 @@
+read -e -p "Input file: " input_file
+read -e -p "Output file: " output_file
+read -p "Size: " size
+read -p "Top text: " toptext
+read -p "Bottom text: " bottomtext
+magick "$input_file" -font Impact -pointsize "$size" -fill white -stroke black -strokewidth 2 -gravity South -annotate 0 "$bottomtext" -gravity "North" -annotate 0 "$toptext" "$output_file"
